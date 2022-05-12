@@ -1,2 +1,8 @@
 # mac
 .DS_Store
+
+# vscode setting file
+.vscode
+
+# video file
+*.mov
