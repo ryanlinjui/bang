@@ -12,7 +12,6 @@
             "hp" : 4,
             "role" : "Sheriff",
             "character" : "El Gringo",
-            "distance" : [-1,1],
             "equip" : null,
             "card": [
                 {"suit": "Hearts","value": 2,"item" : "Bang!"},
@@ -23,7 +22,6 @@
             "hp" : 2,
             "role" : "Deputy Sheriff",
             "character" : "Black Jack",
-            "distance" : [1,-1],
             "equip" : [
                 {"suit": "Hearts","value": 3,"item" : "Barrel"},
                 {"suit": "Diamonds","value": 13,"item" : "Schofield"}
