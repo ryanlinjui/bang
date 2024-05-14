@@ -8,3 +8,8 @@ RUN ["apt","-y","install","sox"]
 RUN ["apt-get","-y","install","libsox-fmt-all"]
 
 COPY . .
+
+RUN ["mkdir", "bin"]
+RUN ["make"]
+
+CMD ["./bin/main"]
