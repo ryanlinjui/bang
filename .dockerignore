@@ -4,8 +4,17 @@
 # vscode setting file
 .vscode
 
+# document directory
+docs
+
 # c object directory
 obj
 
 # binary directory
 bin
+
+# git directory
+.git
+
+# git ignore file
+.gitignore
