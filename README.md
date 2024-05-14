@@ -36,25 +36,12 @@ In Docker version, to initialize docker environment
     ```bash
     docker build -t bang . 
     ```
-- Create container
-
-    ```bash
-    docker create -it --name bang-env bang
-    ```
-
-Play Bang in docker environment
-
-- Run container
-
-    ```
-    docker start bang-env 
-    ```
 - Play bang
 
     ```
-    docker exec -it bang-env make;./bin/main;
+    docker run --rm -it bang
     ```
-    
+
 > note: the music version may not work because your audio device is not connect to docker container.
 
 ## Other Info
